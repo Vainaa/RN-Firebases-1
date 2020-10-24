@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Users\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add firebase
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-14.0.2;C:\Program Files\Git\cmd;C:\Users\;C:\Program Files\OpenJDK\openjdk-8u262-b10\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Aaro\AppData\Local\Microsoft\WindowsApps;C:\Users\Aaro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Aaro\AppData\Roaming\npm;C:\Users\Aaro\AppData\Local\Android\Sdk\platform-tools;C:\Users\Aaro\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.22.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
